@@ -1,0 +1,28 @@
+.text {
+  font-family: var(--font-sans);
+  margin: 0;
+}
+
+.heading {
+  font-size: 24px;
+  font-weight: bold;
+  color: var(--color-foreground);
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.subheading {
+  font-size: 18px;
+  font-weight: bold;
+  color: var(--color-card-foreground);
+  margin: 15px 0;
+}
+
+.hexValue {
+  font-size: 18px;
+  font-weight: bold;
+  border: 1px solid var(--color-border);
+  padding: 8px 12px;
+  border-radius: var(--radius);
+  background-color: var(--color-muted);
+}

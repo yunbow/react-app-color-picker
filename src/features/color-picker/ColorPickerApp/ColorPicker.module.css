@@ -1,0 +1,8 @@
+.container {
+  max-width: 600px;
+  margin: 0 auto;
+  background-color: var(--color-card);
+  border-radius: var(--radius);
+  padding: 20px;
+  box-shadow: var(--shadow-md);
+}

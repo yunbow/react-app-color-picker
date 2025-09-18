@@ -1,0 +1,32 @@
+.button {
+  padding: 8px 15px;
+  border: none;
+  border-radius: var(--radius);
+  cursor: pointer;
+  transition: background-color 0.3s;
+  font-family: var(--font-sans);
+  font-size: 14px;
+  font-weight: normal;
+}
+
+.primary {
+  background-color: var(--color-primary);
+  color: var(--color-primary-foreground);
+}
+
+.primary:hover {
+  opacity: 0.9;
+}
+
+.secondary {
+  background-color: var(--color-secondary);
+  color: var(--color-secondary-foreground);
+}
+
+.secondary:hover {
+  opacity: 0.9;
+}
+
+.fullWidth {
+  width: 100%;
+}

@@ -1,0 +1,19 @@
+.sliders {
+  margin-bottom: 20px;
+}
+
+@media (max-width: 600px) {
+  .sliders .slider {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  
+  .sliders .slider input {
+    width: 100%;
+    margin: 10px 0;
+  }
+  
+  .sliders .slider label {
+    width: 100%;
+  }
+}
